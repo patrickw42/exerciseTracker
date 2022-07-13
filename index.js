@@ -1,7 +1,5 @@
 const express = require("express");
 const app = express();
-const cors = require("cors");
-app.use(cors());
 require("dotenv").config();
 
 //make public static so html can easily access css file
